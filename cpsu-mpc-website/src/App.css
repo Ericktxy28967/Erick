@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fafafa;
+}
+.shadow-bottom {
+  box-shadow: 0 15px 20px -2px rgb(0, 0, 0, 0.1);
+}
