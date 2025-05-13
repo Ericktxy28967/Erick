@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erick's Coffee</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="icon" type="image" href="assets/bg.jpg">
+</head>
+<body>
+   <div class="container">
+   <header>
+    <div id="homepage" class="navbar">
+        <div class="logo">
+            <img src="assets/logo.jpg" alt=""><span style="color: orangered;">Erick's</span> Coffee <span style="color: rgb(71, 42, 4);">Shop</span></div>
+        <div class="menu">
+            <ul>
+                <li><a href="#homepage"><span style="color: orangered;">Home</span></a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#coffee">Coffee</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#news">News</a></li>
+            </ul>
+        </div>
+        <p href="#">Cart O</p>
+    </div>
+   </header>
+   <article>
+    <div class="content">
+        <div class="contentpages">
+            <img src="assets/logo.jpg">
+
+           <div class="content-article">
+            <h1><span style="color: orangered;">Good Coffee</span> Will<br>Always Find The<br>Audience<br>Brings Out <span style="color: red;">Love...</span></h1>
+            <p>We provide a variety of unique and Best Coffees ...</p>
+           </div>
+        </div>
+    </div>
+   </article>
+   <div id="about" class="another-content">
+     <div class="nav">
+        <div class="contents">
+            <img id="inv" src="assets/1.jpg">
+            <h3>AWESOME AROMA</h3>
+            <p>Aroma that you've miss in every morning.</p>
+        </div>
+        <div class="contents">
+            <img id="inv" src="assets/3.jpg">
+            <h3>HIGH QUALITY</h3>
+            <p>The coffee is brewed by first roasting the green coffee beans that brings quality taste in every sip.</p>
+        </div>
+        <div class="contents">
+            <img id="inv" src="assets/4.jpg">
+            <h3>PURE GRADES</h3>
+            <p>The coffee beans is from the organic coffee beans of mt. canlaon that fully preserves.</p>
+        </div>
+        <div class="contents">
+            <img id="inv" src="assets/1.jpg">
+            <h3>PROPER ROASTING</h3>
+            <p>The coffee is brewed by first roasting the green coffee beans</p>
+        </div>
+     </div>
+
+     <div class="coffee-section">
+        <div class="section-page">
+            <img src="assets/bg2.jpg">
+
+           <div class="description">
+            <h1>Best Coffee House In <br> Your <span style="color: orangered;">Home Town</span></h1>
+            <p>We provide a variety of unique and Best Coffees Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam dolor doloribus vero. Dolor quia dignissimos distinctio, excepturi omnis maiores voluptate, minima blanditiis qui accusantium quae! Tenetur fugiat qui expedita odit!</p>
+            <p id="nv">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, delectus maiores? Iusto suscipit amet pariatur? Minus eum voluptate, praesentium iste adipisci sapiente doloremque sint assumenda vitae voluptas facilis! Odio, laboriosam.</p>
+            <button>Read more...</button>
+           </div>
+        </div>
+    </div>
+
+    <div id="coffee" class="second-content">
+        <h1>Our Special <span style="color: red;">Coffee</span></h1>
+        <div class="flexbox-section">
+            <div class="flexbox">
+                <img src="assets/caram.jpg">
+                <h3>Americano Pure Coffee</h3>
+                <p>Americano pure coffee is from the U.S brewed with the most rare beans of Mt. dakota</p>
+                <div class="flexbox-footer">
+                    <p style="font-weight: 900; font-size: 25px;">$44</p>
+                <button>Order Now</button>
+                </div>
+            </div>
+            <div class="flexbox">
+                <img src="assets/ar.jpg">
+                <h3>Capuchino pure grind beans</h3>
+                <p>Capuchino beans is made from the local's of mindoro</p>
+                <div class="flexbox-footertwo">
+                    <p style="font-weight: 900; font-size: 25px;">$37</p>
+                <button>Order Now</button>
+                </div>
+            </div>
+            <div class="flexbox">
+                <img src="assets/moises.jpg">
+                <h3>Moises Padilla Coffee</h3>
+                <p>Moises padilla coffee is specialized coffee of our municipality it's famous.</p>
+                <div class="flexbox-footer">
+                <p style="font-weight: 900; font-size: 25px;">$21</p>
+                <button>Order Now</button>
+                </div>
+            </div> 
+    </div>
+   </div>
+   <div class="third-content">
+    <h1 id="menu">Our Other <span style="color: red;">Breakfast Item</span></h1>
+    <div class="breakfast-section">
+        <div class="breakfast-navigation">
+            <ul>
+                <li> <a href="#">Milktea</a></li>
+                <li> <a href="#">Coffee</a></li>
+                <li> <a href="#"><span style="color: orangered; text-decoration: none; border-bottom: 2px solid orangered;">Sandwitches</span></a></li>
+                <li> <a href="#">Smoothie</a></li>
+                <li> <a href="#">Doughnuts</a></li>
+                <li> <a href="#">Cookies</a></li>
+            </ul>
+        </div>
+        <div class="sandwitches-contents">
+            <div class="sandwitches-items">
+                <img src="assets/vegie.jpg">
+                <h3>Vegie Sandwitches</h3>
+                <p>Vegie sandwitches is our top rated sandwitches</p>
+                <div class="sandwitches-footerone">
+                <p style="font-weight: 900; font-size: 25px;">$14</p>
+                <button>Order Now</button>
+                </div>
+            </div>
+            <div class="sandwitches-items">
+                <img src="assets/footlong sandwitch.jpg">
+                <h3>Footlong Sandwitches</h3>
+                <p>Footlong sandwitches is good for 3 pax, try it with your barkada's</p>
+                <div class="sandwitches-footer">
+                <p style="font-weight: 900; font-size: 25px;">$19</p>
+                <button>Order Now</button>
+                </div>
+            </div>
+            <div class="sandwitches-items">
+                <img src="assets/burger.jpg">
+                <h3>Burger Sandwitches</h3>
+                <p>Burger sandwitches top ordered by out beloved customer. Try it now !!!</p>
+                <div class="sandwitches-footer">
+                <p style="font-weight: 900; font-size: 25px;">$20</p>
+                <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <div id="news" class="fourth-content">
+    <div class="news-content">
+        <div class="news-title">
+            <img src="assets/news.jpg">
+          <h3 style="margin-top: 80px;"><span style="color: red;">Subscribe</span> To Get <br>Latest News</span></h3>
+         <div class="news-input-button">
+            <input type="email" placeholder=" Enter your email here" required>
+            <button>Subscribe</button>
+         </div>
+        </div>
+    </div>
+   </div>
+   
+   <footer>
+    <div class="footer-container">
+      <div class="footer-contents">
+
+        <div class="footer-items">
+         <div class="footer-logo">
+            <img src="assets/logo2.jpg">
+            <h3><span style="color: orangered;">Erick's</span> Coffee</h3>
+         </div>
+         <p>Erick's coffee shop is a coffee shop located in Moises Padilla, Negros Occidental. Famous in its municipality for the great taste of foods and drinks, also offers great services for its customer with a consistent rating of 5.0 in it's costumer review.</p>
+         <p>Come and visit our coffee shop</p>
+        </div>
+
+        <div class="footer-items">
+            <div class="contact">
+                <h3>Contact us</h3>
+                <p>Address: Brgy. 7 Magallon Cadre<br> Moises Padilla <br> Negros Occidental</p>
+                <p>Phone number: (1102)-109323-5465</p>
+                <p>Email: ericsalazar_coffeeshop@gmail.com</p>
+            </div>
+           </div>
+
+           <div class="footer-items">
+            <div class="viewer">
+                <h3>Viewer Guides</h3>
+                <p>Home</p>
+                <p>About</p>
+                <p>Coffee</p>
+                <p>Help & Support</p>
+            </div>
+           </div>
+
+           <div class="footer-items">
+            <div class="recent">
+                <h3>Recent News</h3>
+                <div class="r-news">
+                    <img src="assets/vegie.jpg">
+                    <p>Newest burger sandwitch!! <br> Come and try it now.</p>
+                </div>
+                <div class="r-news-two">
+                    <img src="assets/capuchino.jpg">
+                    <p>Best smell of americano coffee <br> Come and try it now.</p>
+                </div>
+            </div>
+           </div>
+
+      </div>
+    </div>
+   </footer>
+   </div> 
+</body>
+</html>

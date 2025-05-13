@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erick Ukay's - Shop</title>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="shortcut icon" href="icons/bg.jpg" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="brand">Erick Ukay's</a>
+          <div class="hamburger" onclick="toggleMenu()">
+              <div></div>
+              <div></div>
+              <div></div>
+          </div>
+                <div class="menu">
+                      <a href="home.html">Home</a>
+                      <a href="Shop.html">Shop</a>
+                      <a href="about.html">About</a>
+                      <a href="#">Cart</a>
+                      <a href="#">Contact</a>
+                </div>
+    </nav>
+
+    <!-- <div class="homepage">
+        <div class="home-contents">
+            <h1>Shop the latest products</h1>
+            <p> <span style="font-weight: bold;">Browse our</span> collection of new arrivals,</p>
+            <p>top-rated items, and best sellers.</p>
+            <button type="submit" action="">Shop Now</button>
+        </div>
+        <div class="hero">
+            <a href="icons/hero.png"> <img src="icons/hero.png" alt="blank"> </a>
+        </div>
+    </div> -->
+
+    <div class="sale-products">
+        <div class="products">
+            <div class="title">Sale Products</div>
+            <div class="products-container">
+                <div class="items-container">
+                    <img src="icons/watch.png" alt="">
+                    <h3>Wrist Watch</h3>
+                </div>
+                <div class="items-container">
+                    <img src="icons/sneakers.png" alt="">
+                    <h3>Sneakers</h3>
+                </div>
+                <div class="items-container">
+                    <img src="icons/tote bag.png" alt="">
+                    <h3>Tote Bag</h3>
+                </div>
+                <div class="items-container">
+                    <img src="icons/headphones.png" alt="">
+                    <h3>Headphones</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

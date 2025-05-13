@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erick Ukay's - About</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="brand">Erick Ukay's</a>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="menu">
+            <a href="home.html">Home</a>
+            <a href="Shop.html">Shop</a>
+            <a href="about.html">About</a>
+            <a href="">Cart</a>
+            <a href="">Contact</a>
+        </div>
+    </nav>
+    <div class="aboutpage">
+        <div class="title">Erick Ukay's</div>
+        <div class="about-contents">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, dolor blanditiis? Assumenda vitae rem sunt neque dolor, veniam sequi hic maiores, unde veritatis laborum dignissimos ratione, quam iste sint voluptate.</p>
+        </div>
+    </div>
+    <script>
+       function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

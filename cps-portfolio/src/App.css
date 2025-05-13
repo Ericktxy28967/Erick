@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.shadow-bottom {
+  box-shadow: 0 7px 10px -1px rgba(0, 0, 0, 0.1);
+}
+.scroll-fade-in {
+  animation: fade-in 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  animation-fill-mode: both;
+}
+@keyframes fade-in {
+  0% {
+    scale: 0.9;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+.scroll-fade-up {
+  animation: fade-up 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  animation-fill-mode: both;
+}
+@keyframes fade-up {
+  0% {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.scroll-fade-right {
+  animation: fade-right 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  animation-fill-mode: both;
+}
+@keyframes fade-right {
+  0% {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.scroll-fade-left {
+  animation: fade-left 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  animation-fill-mode: both;
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
