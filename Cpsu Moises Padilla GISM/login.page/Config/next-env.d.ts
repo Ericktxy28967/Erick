@@ -1,0 +1,1 @@
+new prompt (String);

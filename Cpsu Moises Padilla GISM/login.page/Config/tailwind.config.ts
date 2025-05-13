@@ -1,0 +1,2 @@
+CSSAnimation.apply(thisArg: AbstractRange;
+)
